@@ -8,7 +8,7 @@ public class Cor {
 	private String sigla;
 	
 	@JsonCreator
-	public Cor(@JsonProperty String nome,@JsonProperty String sigla) {
+	public Cor(@JsonProperty("nome") String nome,@JsonProperty("sigla") String sigla) {
 		this.nome = nome;
 		this.sigla = sigla;
 	}
