@@ -4,16 +4,16 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Produto {
+public class MeuProduto {
 	@Id
 	private String id;
 	private String nome;
 	private double preco;
 	
-	public Produto() {
+	public MeuProduto() {
 	}
 	
-	public Produto(String id, String nome, double preco) {
+	public MeuProduto(String id, String nome, double preco) {
 		this.id = id;
 		this.nome = nome;
 		this.preco = preco;
