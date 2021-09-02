@@ -8,6 +8,7 @@ public class MeuPet {
 	@Id
 	private String id;
 	private String nome;
+	private String idade;
 	
 	public MeuPet() {
 	}
